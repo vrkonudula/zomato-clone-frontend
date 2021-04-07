@@ -1,4 +1,4 @@
-const url = "http://localhost:2020/api";
+const url = process.env.REACT_APP_BACKEND_URL;
 async function fetchLocations() {
   const response = await fetch(`${url}/locations`);
   const data = await response.json();

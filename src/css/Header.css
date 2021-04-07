@@ -1,0 +1,86 @@
+.header {
+  background-color: red;
+  height: 80px;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.homeHeader {
+   background-color: transparent;
+   height: 80px;
+   width: 100%;
+   position: absolute;
+   display: flex;
+   justify-content: flex-end;
+   align-items: center;
+}
+
+.headerLogo {
+  height: 60px;
+  width: 60px;
+  margin-left: 20px;
+  display: flex;
+  background-color: white;
+  border-radius: 50%;
+  justify-content: space-evenly;
+  font-family: Poppins;
+  font-size: 40px;
+  font-weight: 600;
+  color: #eb2929;
+  align-items: center;
+}
+
+.account {
+  display: flex;
+  justify-content: space-between;
+  width: 220px;
+  margin-right: 20px;
+  font-family: Poppins;
+  font-size: 16px;
+  font-weight: 500;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.56;
+  letter-spacing: normal;
+  color: #fbfbfb;
+}
+
+.create-account {
+  border-radius: 3px;
+  padding: 12px 14px 11px 15px;
+  border: solid 1px white;
+  font-family: Poppins;
+  font-size: 16px;
+  font-weight: 500;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.56;
+  letter-spacing: normal;
+  text-align: left;
+  color: white;
+  cursor: pointer;
+}
+
+.login {
+  padding: 12px 14px 11px 15px;
+  font-family: Poppins;
+  font-size: 16px;
+  font-weight: 500;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.56;
+  letter-spacing: normal;
+  text-align: left;
+  color: white;
+  cursor: pointer;
+}
+
+#userDetails {
+  height: 100%;
+  margin-right: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+}

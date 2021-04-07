@@ -1,0 +1,159 @@
+#navBar {
+  height: 140px;
+  width: 90%;
+  padding-left: 5%;
+  padding-right: 5%;
+  display: flex;
+  flex-direction: column;
+}
+
+nav {
+  display: flex;
+}
+
+#restaurant {
+  height: 60px;
+  width: 100%;
+  display: flex;
+}
+
+#restaurantName {
+  font-family: Poppins;
+  font-size: 30px;
+  font-weight: 600;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.53;
+  letter-spacing: normal;
+  text-align: left;
+  color: #192f60;
+  position:relative;
+  top: 0;
+}
+
+#placeOrder > button {
+  width: 223px;
+  height: 50px;
+  border-radius: 6px;
+  border: none;
+  cursor: pointer;
+  background-color: red;
+  font-family: Poppins;
+  font-size: 18px;
+  font-weight: 500;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.5;
+  letter-spacing: normal;
+  color: white;
+}
+
+#navTab {
+  height: 50px;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+}
+
+nav {
+  display: flex;
+}
+
+.listStyle {
+  position: relative;
+  top: 10px;
+  margin-right: 20px;
+  font-family: Poppins;
+  font-size: 18px;
+  font-weight: 600;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.5;
+  letter-spacing: normal;
+  text-align: left;
+  color: #192f60;
+  background-color: transparent;
+  list-style:none;
+  cursor: pointer;
+  padding-bottom: 5px;
+}
+
+.selected {
+  border-bottom: 2px solid red;
+}
+
+hr {
+  width: 20px;
+  color: black;
+  width: 100%;
+}
+
+.detailsOverview {
+  height: 220px;
+  width: 90%;
+  padding-left: 5%;
+  padding-right: 5%;
+  padding-top: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.detailsContact {
+    height: 200px;
+    width: 90%;
+    padding-left: 5%;
+    padding-right: 5%;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    display: flex;
+    flex-direction: column;
+}
+
+#about {
+  height: 50px;
+  width: 100%;
+  font-family: Poppins;
+  font-size: 22px;
+  font-weight: 600;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.5;
+  letter-spacing: normal;
+  text-align: left;
+  color: #192f60;
+}
+
+.overview-show { 
+  display: block;
+}
+
+.overview-hidden {
+  display: none;
+}
+
+.contack-show {
+  display: block;
+}
+
+.contact-hidden {
+  display: none;
+}
+
+@media only screen and (max-width: 600px) {
+  #restaurant {
+    margin-bottom: 20px;
+  }
+
+  #placeOrder>button {
+    width: 162px;
+    font-family: Poppins;
+    font-size: 14px;
+    font-weight: 500;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.5;
+    letter-spacing: normal;
+    text-align: center;
+  }
+}

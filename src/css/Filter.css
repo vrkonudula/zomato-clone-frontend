@@ -1,0 +1,88 @@
+#filterMain {
+  display: flex;
+  justify-content: space-evenly;
+  width: 100%;
+  background-color: #fbfbfb;
+}
+
+#filterContainer {
+      background-color: "#fbfbfb";  
+      width: 90%;
+}
+
+.filterPlace {
+  font-family: Poppins;
+  font-size: 36px;
+  font-weight: bold;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.53;
+  letter-spacing: normal;
+  color: #192f60;
+  margin-top: 10px;
+}
+
+.filterContent {
+  padding-top: 20px;
+  display: flex;
+  justify-content: space-between;
+  padding-bottom: 50px;
+  background-color: #fbfbfb;
+  width: 100%;
+}
+
+#apply {
+  
+      display: flex; 
+      justify-content: space-evenly; 
+      margin-top:30px;
+      border-radius:3px;
+      border:1px solid red;
+      width:200px;
+      padding: 8px 8px;
+      font-family: Poppins;
+      font-size: 16px;
+      font-weight: 500;
+      font-stretch: normal;
+      font-style: normal;
+      line-height: 1.56;
+      letter-spacing: normal;
+      text-align: left;
+      color: red;
+}
+
+
+
+@media only screen and (max-width:900px) and (min-width:520px) {
+  .filterContent {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+}
+
+@media only screen and (max-width:519px) {
+  .filterContent {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  #filterContainer {
+    width: 100%;
+    padding-top: 10px;
+  }
+
+  .filterPlace {
+    
+    font-family: Poppins;
+    margin-left: 10px;
+    font-size: 20px;
+    font-weight: bold;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.5;
+    letter-spacing: normal;
+    color: #192f60;
+  }
+}

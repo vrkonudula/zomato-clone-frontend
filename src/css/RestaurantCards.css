@@ -1,0 +1,349 @@
+.cards {
+  width: 80%;
+  margin-left: 50px;
+  max-width: 1000px;
+}
+
+.card {
+  height: 300px;
+  margin-bottom: 30px;
+  background-color: white;
+  padding: 25px 32.6px 20px 35px;
+  box-shadow: 0 3px 6px 0 rgba(0, 0, 0, 0.16);
+  box-sizing: border-box;
+}
+
+.no-result {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  font-family: Poppins;
+  font-size: 30px;
+  font-weight: 600;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.53;
+  letter-spacing: normal;
+  color: #192f60;
+}
+
+.restaurant {
+  display: flex;
+}
+
+.restaurant-image {
+  width: 120px;
+  height: 120px;
+}
+
+.image {
+  border-radius: 23px;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.description {
+  margin-left: 41px;
+}
+
+.name {
+  font-family: Poppins;
+  font-size: 30px;
+  font-weight: 600;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.53;
+  letter-spacing: normal;
+  text-align: left;
+  color: #192f60;
+  margin-bottom: 5px;
+  cursor: pointer;
+}
+
+.fort {
+  font-family: Poppins;
+  font-size: 16px;
+  font-weight: 500;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.88;
+  letter-spacing: normal;
+  text-align: left;
+  color: #192f60;
+}
+
+.address {
+  font-family: Poppins;
+  font-size: 16px;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.88;
+  letter-spacing: normal;
+  text-align: left;
+  color: #636f88;
+}
+
+.hr {
+  margin-top: 15px;
+  margin-bottom: 15px;
+}
+
+hr {
+  border: solid 1px #dedfe5;
+}
+
+.restaurant-type {
+  display: flex;
+}
+
+.type {
+  width: 140px;
+  font-family: Poppins;
+  font-size: 16px;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.88;
+  letter-spacing: normal;
+  text-align: left;
+  color: #636f88;
+}
+
+.type-name {
+  margin-left: 25px;
+  font-family: Poppins;
+  font-size: 16px;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.88;
+  letter-spacing: normal;
+  text-align: left;
+  color: #192f60;
+}
+
+.pages-nav {
+  height: 36px;
+  display: flex;
+  width: 100%;
+  justify-content: space-evenly;
+}
+
+.pages {
+  width: 330px;
+  display: flex;
+  justify-content: flex-start;
+}
+
+.page-unselected {
+  width: 36px;
+  margin-right: 10px;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  border-radius: 7px;
+  border: solid 1px #8c96ab;
+  background-color: white;
+  font-family: Poppins;
+  font-size: 20px;
+  font-weight: 500;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.5;
+  letter-spacing: normal;
+  text-align: left;
+  color: #8c96ab;
+}
+
+.page-selected {
+  width: 36px;
+  margin-right: 10px;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  border-radius: 7px;
+  border: solid 1px #8c96ab;
+  background-color: #8c96ab;
+  font-family: Poppins;
+  font-size: 20px;
+  font-weight: 500;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.5;
+  letter-spacing: normal;
+  text-align: left;
+  color: white;
+}
+
+.pointer {
+  cursor: pointer;
+}
+
+@media only screen and (max-width:1000px) and (min-width:900px) {
+  
+  .card {
+    width: 95%;
+    margin-bottom: 30px;
+    background-color: white;
+    padding: 25px 26px 20px 35px;
+    box-shadow: 0 3px 6px 0 rgba(0, 0, 0, 0.16);
+  }
+
+  .name {
+    font-size: 26px;;
+  }
+
+  .restaurant-image {
+    width: 100px;
+    height: 100px;
+  }
+
+  .image {
+    border-radius: 23px;
+    width: 100px;
+    height: 100px;
+    object-fit: cover;
+  }
+}
+
+@media only screen and (max-width:900px) and (min-width:520px) {
+  .restaurant-image {
+    width: 80px;
+    height: 80px;
+  }
+
+  .image {
+    border-radius: 28px;
+    width: 80px;
+    height: 80px;
+    object-fit: cover;
+  }
+  .cards {
+    width: 100%;
+    margin-left: 0;
+    
+  }
+
+  .card {
+    width: 100%;
+    height: 250px;
+    padding: 25px 26px 20px 35px;
+    box-sizing: border-box;
+  }
+}
+
+@media only screen and (max-width:519px) {
+  .restaurant-image {
+    width: 70px;
+    height: 70px;
+  }
+
+  .image {
+    border-radius: 15px;
+    width: 70px;
+    height: 70px;
+    object-fit: cover;
+  }
+
+  .cards {
+    width: 100%;
+    margin-left: 0;
+
+  }
+
+  .card {
+    width: 100%;
+    height:250px;
+    padding: 20px;
+    box-sizing: border-box;
+  }
+
+  .name {
+     font-family: Poppins;
+     font-size: 20px;
+     font-weight: 600;
+     font-stretch: normal;
+     font-style: normal;
+     line-height: 1.5;
+     letter-spacing: normal;
+     text-align: left;
+    color: #192f60;
+    margin-bottom: 5px;
+  }
+
+  .fort {
+     font-family: Poppins;
+     font-size: 13px;
+     font-weight: 500;
+     font-stretch: normal;
+     font-style: normal;
+     line-height: 2.31;
+     letter-spacing: normal;
+     text-align: left;
+    color: #192f60;
+  }
+
+  .address {
+     font-family: Poppins;
+     font-size: 12px;
+     font-weight: normal;
+     font-stretch: normal;
+     font-style: normal;
+     line-height: 2.5;
+     letter-spacing: normal;
+     text-align: left;
+    color: #636f88;
+  }
+  .description {
+    margin-left: 10px;
+  }
+  .pages {
+    width: 280px;
+    display: flex;
+    justify-content: flex-start;
+  }
+
+  .page-unselected {
+    width: 28px;
+    height:28px;
+    margin-right: 10px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    border-radius: 7px;
+    border: solid 1px #8c96ab;
+    background-color: white;
+    font-family: Poppins;
+    font-size: 20px;
+    font-weight: 500;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.5;
+    letter-spacing: normal;
+    text-align: left;
+    color: #8c96ab;
+  }
+
+  .page-selected {
+    width: 28px;
+    height:28px;
+    margin-right: 10px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    border-radius: 7px;
+    border: solid 1px #8c96ab;
+    background-color: #8c96ab;
+    font-family: Poppins;
+    font-size: 20px;
+    font-weight: 500;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.5;
+    letter-spacing: normal;
+    text-align: left;
+    color: white;
+  }
+}

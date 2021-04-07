@@ -1,0 +1,174 @@
+.filter-dropdown {
+  display: none;
+  cursor: pointer;
+}
+
+.filter-dropdown-text {
+  display: flex;
+  justify-content: space-between;
+  height: 40px;
+   padding: 16px 26.7px 0 21px;
+   -webkit-backdrop-filter: blur(30px);
+   backdrop-filter: blur(30px);
+   box-shadow: 0 3px 3px 0 rgba(0, 0, 0, 0.1);
+   border: solid 1px #e0e0e0;
+   background-color: var(--white);
+   font-family: Poppins;
+   font-size: 16px;
+   font-weight: 600;
+   font-stretch: normal;
+   font-style: normal;
+   line-height: 1.56;
+   letter-spacing: normal;
+   text-align: left;
+   color: #192f60;
+}
+
+.filters {
+  width: 260px;
+  background-color: white;
+  padding: 17px 25px 31px 26px;
+  box-shadow: 0 3px 6px 0 rgba(0, 0, 0, 0.16);
+}
+
+.filter-text {
+  font-family: Poppins;
+  font-size: 18px;
+  font-weight: 600;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.5;
+  letter-spacing: normal;
+  text-align: left;
+  color: #192f60;
+}
+
+.select-location {
+  font-family: Poppins;
+  font-size: 14px;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.5;
+  letter-spacing: normal;
+  text-align: left;
+  color: #192f60;
+  margin-top: 20px;
+}
+
+.location-dropdown-filter {
+  padding: 2px;
+  border-radius: 3px;
+  border: solid 1px #8c96ab;
+  width: 208px;
+  height: 35px;
+  margin-top: 10px;
+}
+
+.options {
+  margin-top: 20px;
+}
+
+.cusine-text {
+  font-family: Poppins;
+  font-size: 14px;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.5;
+  letter-spacing: normal;
+  text-align: left;
+  color: #192f60;
+}
+
+.option {
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+.option-text {
+  font-family: Poppins;
+  font-size: 14px;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.5;
+  letter-spacing: normal;
+  text-align: left;
+  color: #8c96ab;
+  margin-left: 10px;
+}
+
+.sort-text {
+  font-family: Poppins;
+  font-size: 18px;
+  font-weight: 600;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.5;
+  letter-spacing: normal;
+  text-align: left;
+  color: #192f60;
+}
+
+@media only screen and (max-width:900px) and (min-width:520px) {
+
+  .filter-dropdown {
+    display: block;
+    width: 100%;
+    margin-bottom: 20px;
+  }
+
+  .filters {
+    width: 82%;
+    margin-bottom: 20px;
+    position: absolute;
+    top: 250px;
+    z-index: 10;
+  }
+
+  .selected-dropdown {
+    display: block;
+  }
+
+  .unselected-dropdown {
+    display: none;
+  }
+}
+
+@media only screen and (max-width:519px) {
+  .filter-dropdown {
+    padding: 17px 25px 31px 26px;
+    display: block;
+    width: 95%;
+  }
+
+  .filters {
+    width: 84%;
+    margin-bottom: 20px;
+    margin-left: 25px;
+    margin-right: 25px;
+    position: absolute;
+    top: 250px;
+    z-index: 10;
+  }
+
+  .selected-dropdown {
+    display: block;
+  }
+
+  .unselected-dropdown {
+    display: none;
+  }
+}
+
+@media only screen and (max-width:900px) and (min-width:420px) {
+  .optionsContainer {
+    display: flex;
+    flex-wrap: wrap;
+  }
+
+  .option {
+    margin-right: 12px;
+  }
+}
